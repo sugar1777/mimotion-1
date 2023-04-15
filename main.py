@@ -28,7 +28,7 @@ def get_code(location):
     code = code_pattern.findall(location)[0]
     return code
 
-
+ 
 def login(_user, password):
     """
     登录
